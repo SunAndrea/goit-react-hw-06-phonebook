@@ -12,16 +12,6 @@ import {
 import { contactsReducer } from './contactsSlice';
 import { filterSlice } from './filterSlice';
 
-// const persistConfig = {
-//   key: 'contacts',
-//   storage,
-// };
-
-// const persistedContactsReducer = persistReducer(
-//   persistConfig,
-//   contactsSlice.reducer
-// );
-
 export const store = configureStore({
   reducer: {
     contacts: contactsReducer,
